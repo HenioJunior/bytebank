@@ -1,3 +1,7 @@
 fun main() {
-    print("Hello world!")
+    println("Bem vindo ao Bytebank!")
+
+    val titular = "Alex"
+
+    println("Titular $titular" )
 }
