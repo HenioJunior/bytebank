@@ -1,3 +1,8 @@
+package br.com.crystaldata.bytebank.modelo
+
+import br.com.crystaldata.bytebank.modelo.Autenticavel
+import br.com.crystaldata.bytebank.modelo.Funcionario
+
 abstract class FuncionarioAdmin(
     nome: String,
     cpf: String,
@@ -7,7 +12,7 @@ abstract class FuncionarioAdmin(
     nome = nome,
     cpf = cpf,
     salario = salario
-), Autenticavel{
+), Autenticavel {
 
     override fun autentica(senha: Int): Boolean {
         if(this.senha == senha){

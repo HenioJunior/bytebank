@@ -1,18 +1,18 @@
-class Diretor (
+package br.com.crystaldata.bytebank.modelo
+
+class Analista (
     nome: String,
     cpf: String,
     salario: Double,
-    senha: Int,
-    val plr: Double
-) : FuncionarioAdmin(
+) : Funcionario(
     nome = nome,
     cpf = cpf,
-    salario = salario,
-    senha = senha
+    salario = salario
 ) {
 
     override val bonificacao: Double
         get() {
-            return salario + plr
+            return salario *0.1
         }
+
 }

@@ -1,3 +1,6 @@
+import br.com.crystaldata.bytebank.modelo.ContaCorrente
+import br.com.crystaldata.bytebank.modelo.ContaPoupanca
+
 fun testaCopiasEReferencias() {
     val numeroX = 10
     var numeroY = numeroX

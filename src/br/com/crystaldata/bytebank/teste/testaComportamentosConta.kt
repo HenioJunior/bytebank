@@ -1,3 +1,6 @@
+import br.com.crystaldata.bytebank.modelo.ContaCorrente
+import br.com.crystaldata.bytebank.modelo.ContaPoupanca
+
 fun testaComportamentosConta() {
     val contaAlex = ContaCorrente(titular = "Alex", numero = 1000)
     contaAlex.deposita(200.0)

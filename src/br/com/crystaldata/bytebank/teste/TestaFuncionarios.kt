@@ -1,4 +1,9 @@
-    public fun testaFuncionarios() {
+import br.com.crystaldata.bytebank.modelo.Analista
+import br.com.crystaldata.bytebank.modelo.CalculadoraBonificacao
+import br.com.crystaldata.bytebank.modelo.Diretor
+import br.com.crystaldata.bytebank.modelo.Gerente
+
+public fun testaFuncionarios() {
         val alex = Analista(
             "Alex",
             "111.111.111-11",

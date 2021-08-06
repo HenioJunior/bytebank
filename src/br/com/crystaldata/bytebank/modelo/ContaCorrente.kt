@@ -1,3 +1,7 @@
+package br.com.crystaldata.bytebank.modelo
+
+import br.com.crystaldata.bytebank.modelo.Conta
+
 class ContaCorrente(
     titular: String,
     numero: Int

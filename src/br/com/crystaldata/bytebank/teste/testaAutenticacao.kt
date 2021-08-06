@@ -1,3 +1,8 @@
+import br.com.crystaldata.bytebank.modelo.Cliente
+import br.com.crystaldata.bytebank.modelo.Diretor
+import br.com.crystaldata.bytebank.modelo.Gerente
+import br.com.crystaldata.bytebank.modelo.SistemaInterno
+
 fun testaAutenticacao() {
     val gerente = Gerente(
         nome = "Alex",

@@ -1,3 +1,6 @@
+import br.com.crystaldata.bytebank.modelo.ContaCorrente
+import br.com.crystaldata.bytebank.modelo.ContaPoupanca
+
 fun testaContasDiferentes() {
     val contaCorrente = ContaCorrente(
         titular = "Alex",
