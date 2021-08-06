@@ -9,6 +9,5 @@ class ContaCorrente(
             this.saldo -= valorComTaxa
         }
     }
-
 }
 

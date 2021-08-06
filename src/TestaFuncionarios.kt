@@ -62,8 +62,8 @@
 
         val calculadora = CalculadoraBonificacao()
         calculadora.registra(alex)
-        calculadora.registra(fran)
-        calculadora.registra(gui)
+        //calculadora.registra(fran)
+        //calculadora.registra(gui)
         calculadora.registra(maria)
 
         println("total de bonificação: ${calculadora.total}")
