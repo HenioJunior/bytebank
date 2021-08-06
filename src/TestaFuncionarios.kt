@@ -1,7 +1,5 @@
-class TestaFuncionarios {
-
     public fun testaFuncionarios() {
-        val alex = Funcionario(
+        val alex = Analista(
             "Alex",
             "111.111.111-11",
             1000.00
@@ -70,5 +68,3 @@ class TestaFuncionarios {
 
         println("total de bonificação: ${calculadora.total}")
     }
-
-}
