@@ -1,11 +1,17 @@
+import br.com.crystaldata.bytebank.modelo.Cliente
 import br.com.crystaldata.bytebank.modelo.ContaCorrente
 import br.com.crystaldata.bytebank.modelo.ContaPoupanca
 
 fun testaComportamentosConta() {
-    val contaAlex = ContaCorrente(titular = "Alex", numero = 1000)
+
+    val alex = Cliente(nome = "Alex", cpf = "111.111.111-11", senha =  1)
+
+    val contaAlex = ContaCorrente(titular = alex, numero = 1000)
     contaAlex.deposita(200.0)
 
-    val contaFran = ContaPoupanca(numero = 1001, titular = "Fran")
+    val fran = Cliente("Fran", "222.222.222-22", 2)
+
+    val contaFran = ContaPoupanca(numero = 1001, titular = fran)
     contaFran.deposita(300.0)
 
     println(contaFran.titular)

@@ -1,14 +1,20 @@
+import br.com.crystaldata.bytebank.modelo.Cliente
 import br.com.crystaldata.bytebank.modelo.ContaCorrente
 import br.com.crystaldata.bytebank.modelo.ContaPoupanca
 
 fun testaContasDiferentes() {
     val contaCorrente = ContaCorrente(
-        titular = "Alex",
+        titular = Cliente("Alex", "111.111.111-11", 1),
         numero = 1000
     )
 
+    println("titular")
+    println("nome do titular ${contaCorrente.titular.nome}")
+    println("cpf do titular ${contaCorrente.titular.cpf}")
+
+
     val contaPoupanca = ContaPoupanca(
-        titular = "Fran",
+        titular = Cliente("Maria", "222.222.222-22", 2),
         numero = 1001
     )
 
