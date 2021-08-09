@@ -2,13 +2,17 @@ import br.com.crystaldata.bytebank.modelo.*
 
 fun main() {
 
-    val alex = Cliente(nome = "Alex", cpf = "", senha = 1)
-    val contaPoupanca = ContaPoupanca(titular = alex, numero = 1000)
-    val contaCorrente = ContaCorrente(titular = alex, numero = 1001)
+    val endereco = Endereco(logradouro = "Rua vergueiro", complemento = "Alura")
+    val enderecoNovo = Endereco(bairro = "Vila Mariana", numero = 1000)
 
-    testaContasDiferentes()
+    println(endereco.hashCode())
+    println(enderecoNovo.hashCode())
 
-    println("Total de contas: ${Conta.total}")
+    println(endereco)
+    println(enderecoNovo)
+
+    println("${endereco.javaClass}@${
+        Integer.toHexString(endereco.hashCode())}")
 
 }
 
