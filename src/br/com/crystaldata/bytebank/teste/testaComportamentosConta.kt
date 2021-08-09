@@ -1,3 +1,4 @@
+import br.com.crystaldata.bytebank.exception.FalhaAutenticacaoException
 import br.com.crystaldata.bytebank.exception.SaldoInsuficienteException
 import br.com.crystaldata.bytebank.modelo.Cliente
 import br.com.crystaldata.bytebank.modelo.ContaCorrente
@@ -5,7 +6,7 @@ import br.com.crystaldata.bytebank.modelo.ContaPoupanca
 
 fun testaComportamentosConta() {
 
-    val alex = Cliente(nome = "Alex", cpf = "111.111.111-11", senha =  1)
+    val alex = Cliente(nome = "Alex", cpf = "111.111.111-11", senha = 1)
 
     val contaAlex = ContaCorrente(titular = alex, numero = 1000)
     contaAlex.deposita(200.0)
@@ -54,15 +55,19 @@ fun testaComportamentosConta() {
 
     println("Transferência da conta da Fran para o Alex")
     try {
-        contaFran.transfere(destino = contaAlex, valor = 131.0)
+        contaFran.transfere(destino = contaAlex, valor = 13.0, senha = 2)
         println("Transferência sucedida")
 
-    }catch(e: SaldoInsuficienteException) {
+    } catch (e: SaldoInsuficienteException) {
         println("Falha na transferência")
         println("Saldo insuficiente")
         e.printStackTrace()
+    } catch (e: FalhaAutenticacaoException) {
+        println("Falha na transferência")
+        println("Falha na autenticação")
+        e.printStackTrace()
+        println()
+        println(contaAlex.saldo)
+        println(contaFran.saldo)
     }
-    println()
-    println(contaAlex.saldo)
-    println(contaFran.saldo)
 }
