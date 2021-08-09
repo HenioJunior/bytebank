@@ -3,7 +3,8 @@ import br.com.crystaldata.bytebank.modelo.Endereco
 
 fun main() {
     println("início main")
-    funcao1()
+//    funcao1()
+    testaComportamentosConta()
     println("fim main")
 }
 

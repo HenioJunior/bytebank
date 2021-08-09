@@ -1,3 +1,4 @@
+import br.com.crystaldata.bytebank.exception.SaldoInsuficienteException
 import br.com.crystaldata.bytebank.modelo.Cliente
 import br.com.crystaldata.bytebank.modelo.ContaCorrente
 import br.com.crystaldata.bytebank.modelo.ContaPoupanca
@@ -23,11 +24,11 @@ fun testaComportamentosConta() {
     println(contaAlex.saldo)
 
     println("depositando na conta do Alex")
-    contaAlex.deposita(50.0)
+    contaAlex.deposita(250.0)
     println(contaAlex.saldo)
 
     println("depositando na conta da Fran")
-    contaFran.deposita(70.0)
+    contaFran.deposita(370.0)
     println(contaFran.saldo)
 
     println("sacando na conta do Alex")
@@ -35,25 +36,33 @@ fun testaComportamentosConta() {
     println(contaAlex.saldo)
 
     println("sacando na conta da Fran")
-    contaFran.saca(100.0)
+    contaFran.saca(270.0)
     println(contaFran.saldo)
 
     println("saque em excesso na conta do Alex")
-    contaAlex.saca(100.0)
+    contaAlex.saca(149.0)
     println(contaAlex.saldo)
 
     println("saque em excesso na conta da Fran")
-    contaFran.saca(500.0)
+    contaFran.saca(270.0)
     println(contaFran.saldo)
 
+    println("--------Saldo atualizado----------")
+    println(contaAlex.saldo)
+    println(contaFran.saldo)
+    println()
+
     println("Transferência da conta da Fran para o Alex")
-
-    if (contaFran.transfere(destino = contaAlex, valor = 300.0)) {
+    try {
+        contaFran.transfere(destino = contaAlex, valor = 131.0)
         println("Transferência sucedida")
-    } else {
-        println("Falha na transferência")
-    }
 
+    }catch(e: SaldoInsuficienteException) {
+        println("Falha na transferência")
+        println("Saldo insuficiente")
+        e.printStackTrace()
+    }
+    println()
     println(contaAlex.saldo)
     println(contaFran.saldo)
 }

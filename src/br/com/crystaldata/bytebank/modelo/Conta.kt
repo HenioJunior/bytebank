@@ -1,5 +1,7 @@
 package br.com.crystaldata.bytebank.modelo
 
+import br.com.crystaldata.bytebank.exception.SaldoInsuficienteException
+
 abstract class Conta(
     var titular: Cliente,
     val numero: Int
@@ -25,13 +27,12 @@ abstract class Conta(
 
     abstract fun saca(valor: Double)
 
-    fun transfere(valor: Double, destino: Conta): Boolean {
-        if (saldo >= valor) {
-            saldo -= valor
-            destino.deposita(valor)
-            return true
-        }
-        return false
+    fun transfere(valor: Double, destino: Conta) {
+        if (saldo < valor) {
+            throw SaldoInsuficienteException()
+         }
+        saldo -= valor
+        destino.deposita(valor)
     }
 }
 
