@@ -14,16 +14,27 @@ fun main() {
         null
     }
 
-    val valorComTaxa: Double? = if (valorRecebido != null) {
-        valorRecebido + 0.1
-    } else {
-        null
+//    val valorComTaxa: Double? = if (valorRecebido != null) {
+//        valorRecebido + 0.1
+//    } else {
+//        null
+//    }
+
+    val valorComTaxa: Double? = when {
+        valorRecebido != null -> {
+            valorRecebido + 0.1
+        }
+        else -> {
+            null
+        }
     }
 
-    if(valorComTaxa != null){
-        println("Valor recebido: $valorComTaxa")
-    } else {
-        println("Valor inválido")
+    when {valorComTaxa != null -> {
+        println("Valor recebido: $valorComTaxa")}
+        else -> {
+            println("Valor inválido")
+        }
+
     }
 
     funcao1()
