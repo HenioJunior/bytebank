@@ -2,6 +2,7 @@ package br.com.crystaldata.bytebank.modelo
 
 import br.com.crystaldata.bytebank.exception.FalhaAutenticacaoException
 import br.com.crystaldata.bytebank.exception.SaldoInsuficienteException
+import java.lang.RuntimeException
 
 abstract class Conta(
     var titular: Cliente,
@@ -41,6 +42,7 @@ abstract class Conta(
         if(!autentica(senha)) {
             throw FalhaAutenticacaoException()
         }
+//        throw RuntimeException()
         saldo -= valor
         destino.deposita(valor)
     }
