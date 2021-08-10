@@ -38,10 +38,15 @@ fun main() {
     )
 
     livros.imprimeComMarcadores()
-
     livros.remove(livro1)
-
+    println()
     livros.imprimeComMarcadores()
+    println()
+    val ordenadoAnoPublicacao: List<Livro> = livros.sorted()
+    ordenadoAnoPublicacao.imprimeComMarcadores()
+    println()
+    val ordenadoPorTitulo = livros.sortedBy { it.autor }
+    ordenadoPorTitulo.imprimeComMarcadores()
 
 }
 
