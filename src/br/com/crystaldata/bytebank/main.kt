@@ -1,10 +1,11 @@
-import br.com.crystaldata.bytebank.teste.testaArrays
+import br.com.crystaldata.bytebank.teste.testaRanges
 
 fun main() {
 
-testaArrays()
 
 }
+
+
 
 
 
