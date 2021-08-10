@@ -48,6 +48,15 @@ fun main() {
     val ordenadoPorTitulo = livros.sortedBy { it.autor }
     ordenadoPorTitulo.imprimeComMarcadores()
 
+    //Filtro
+    println()
+    val titulos: List<String> = listaDeLivros
+//        .filter { it.autor == "João Guimarães Rosa" }
+        .filter { it.autor.startsWith("J") }
+        .sortedBy { it.anoPublicacao }
+        .map { it.titulo }
+    println(titulos)
+
 }
 
 fun List<Livro>.imprimeComMarcadores() {
