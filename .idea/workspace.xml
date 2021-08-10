@@ -47,7 +47,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LivrosComAtributoNuloKt">
+  <component name="RunManager" selected="Kotlin.UsaPrateleiraKt">
     <configuration name="ListaDeLivrosComNulosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.crystaldata.bytebank.list.ListaDeLivrosComNulosKt" />
       <module name="bytebank" />
@@ -76,8 +76,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsaPrateleiraKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.crystaldata.bytebank.list.UsaPrateleiraKt" />
+      <module name="bytebank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.UsaPrateleiraKt" />
         <item itemvalue="Kotlin.LivrosComAtributoNuloKt" />
         <item itemvalue="Kotlin.ListaDeLivrosComNulosKt" />
         <item itemvalue="Kotlin.ListaDeLivrosKt" />
