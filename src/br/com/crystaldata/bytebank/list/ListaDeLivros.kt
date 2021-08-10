@@ -50,18 +50,12 @@ fun main() {
 
     //Filtro
     println()
-    val titulos: List<String> = listaDeLivros
+    val titulos: List<String?> = listaDeLivros
 //        .filter { it.autor == "João Guimarães Rosa" }
-        .filter { it.autor.startsWith("J") }
-        .sortedBy { it.anoPublicacao }
-        .map { it.titulo }
+        .filter { it!!.autor.startsWith("J") }
+        .sortedBy { it!!.anoPublicacao }
+        .map { it!!.titulo }
     println(titulos)
 
 }
 
-fun List<Livro>.imprimeComMarcadores() {
-    val textoFormatado = this.joinToString(separator = "\n") {
-        " - ${it.titulo} de ${it.autor}"
-    }
-    println(" #### Lista de Livros #### \n$textoFormatado")
-}

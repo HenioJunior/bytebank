@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/br/com/crystaldata/bytebank/teste" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/br/com/crystaldata/bytebank/list" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -34,6 +34,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/br/com/crystaldata/bytebank/list" />
       <recent name="$PROJECT_DIR$/src/br/com/crystaldata/bytebank/teste" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
@@ -46,7 +47,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ListaDeLivrosKt">
+  <component name="RunManager" selected="Kotlin.ListaDeLivrosComNulosKt">
+    <configuration name="ListaDeLivrosComNulosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.crystaldata.bytebank.list.ListaDeLivrosComNulosKt" />
+      <module name="bytebank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListaDeLivrosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.crystaldata.bytebank.list.ListaDeLivrosKt" />
       <module name="bytebank" />
@@ -63,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ListaDeLivrosComNulosKt" />
         <item itemvalue="Kotlin.ListaDeLivrosKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
