@@ -57,7 +57,37 @@ fun main() {
     }
     println(pedidosPares)
 
+    println()
+    println("Pedidos")
+    println(pedidos)
 
+    println()
+    println("Plus operator")
+    println(pedidos + mapOf(7 to 90.0, 8 to 20.0))
+
+    println()
+    println("Minus operator")
+    println(pedidos - listOf(6, 5))
+
+    println()
+    println("putAll")
+    pedidos.putAll(listOf<Pair<Int,Double>>(7 to 90.0, 8 to 20.0, 8 to 30.0))
+//    pedidos += listOf<Pair<Int,Double>>(7 to 90.0, 8 to 20.0, 8 to 30.0)
+    println(pedidos)
+
+    println()
+    println("remove")
+    pedidos.keys.remove(1)
+    println(pedidos)
+
+    pedidos.values.remove(50.0)
+    println(pedidos)
+
+    pedidos.values.remove(100.0)
+    println(pedidos)
+
+    pedidos -= 6
+    println(pedidos)
 }
 
 fun testaMap(pedidos: MutableMap<Int, Double>) {
