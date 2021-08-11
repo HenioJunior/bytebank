@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ea670bd-ae21-4b38-880b-648752584b90" name="Default Changelist" comment="Devolvendo elementos com distinct">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bytebank/META-INF/bytebank.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bytebank/META-INF/bytebank.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/kotlin/collection/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/kotlin/collection/main.kt" afterDir="false" />
-    </list>
+    <list default="true" id="5ea670bd-ae21-4b38-880b-648752584b90" name="Default Changelist" comment="Devolvendo elementos com distinct" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,35 +53,35 @@
   <component name="RunManager" selected="Kotlin.MainKt (1)">
     <configuration name="ListaDeLivrosComNulosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.crystaldata.bytebank.list.ListaDeLivrosComNulosKt" />
-      <module name="bytebank" />
+      <module name="kotlin-alura" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ListaDeLivrosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.crystaldata.bytebank.list.ListaDeLivrosKt" />
-      <module name="bytebank" />
+      <module name="kotlin-alura" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LivrosComAtributoNuloKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.crystaldata.bytebank.list.LivrosComAtributoNuloKt" />
-      <module name="bytebank" />
+      <module name="kotlin-alura" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.kotlin.collection.MainKt" />
-      <module name="bytebank" />
+      <module name="kotlin-alura" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="UsaPrateleiraKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.crystaldata.bytebank.list.UsaPrateleiraKt" />
-      <module name="bytebank" />
+      <module name="kotlin-alura" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

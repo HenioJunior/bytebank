@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bytebank.iml" filepath="$PROJECT_DIR$/bytebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlin-alura.iml" filepath="$PROJECT_DIR$/kotlin-alura.iml" />
     </modules>
   </component>
 </project>
