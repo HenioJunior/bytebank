@@ -1,7 +1,7 @@
 package br.com.alura.kotlin.teste
 
-import br.com.crystaldata.bytebank.modelo.Autenticavel
-import br.com.crystaldata.bytebank.modelo.SistemaInterno
+import br.com.alura.kotlin.modelo.Autenticavel
+import br.com.alura.kotlin.modelo.SistemaInterno
 
 fun testaObjects() {
     val fran = object : Autenticavel {

@@ -1,6 +1,6 @@
 package br.com.alura.kotlin.teste
 
-import br.com.crystaldata.bytebank.modelo.Endereco
+import br.com.alura.kotlin.modelo.Endereco
 
 fun testaNullSafety() {
 

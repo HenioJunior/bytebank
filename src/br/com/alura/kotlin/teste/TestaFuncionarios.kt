@@ -1,7 +1,7 @@
-import br.com.crystaldata.bytebank.modelo.Analista
-import br.com.crystaldata.bytebank.modelo.CalculadoraBonificacao
-import br.com.crystaldata.bytebank.modelo.Diretor
-import br.com.crystaldata.bytebank.modelo.Gerente
+import br.com.alura.kotlin.modelo.Analista
+import br.com.alura.kotlin.modelo.CalculadoraBonificacao
+import br.com.alura.kotlin.modelo.Diretor
+import br.com.alura.kotlin.modelo.Gerente
 
 public fun testaFuncionarios() {
         val alex = Analista(

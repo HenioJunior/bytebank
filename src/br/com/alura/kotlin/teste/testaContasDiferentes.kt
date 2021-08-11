@@ -1,7 +1,8 @@
-import br.com.crystaldata.bytebank.modelo.Cliente
-import br.com.crystaldata.bytebank.modelo.ContaCorrente
-import br.com.crystaldata.bytebank.modelo.ContaPoupanca
-import br.com.crystaldata.bytebank.modelo.Endereco
+import br.com.alura.kotlin.modelo.Cliente
+import br.com.alura.kotlin.modelo.ContaCorrente
+import br.com.alura.kotlin.modelo.ContaPoupanca
+import br.com.alura.kotlin.modelo.Endereco
+
 
 fun testaContasDiferentes() {
     val contaCorrente = ContaCorrente(

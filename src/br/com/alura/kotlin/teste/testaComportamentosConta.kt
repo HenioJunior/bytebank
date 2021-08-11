@@ -1,8 +1,6 @@
-import br.com.alura.kotlin.exception.FalhaAutenticacaoException
-import br.com.alura.kotlin.exception.SaldoInsuficienteException
-import br.com.crystaldata.bytebank.modelo.Cliente
-import br.com.crystaldata.bytebank.modelo.ContaCorrente
-import br.com.crystaldata.bytebank.modelo.ContaPoupanca
+import br.com.alura.kotlin.modelo.Cliente
+import br.com.alura.kotlin.modelo.ContaCorrente
+import br.com.alura.kotlin.modelo.ContaPoupanca
 
 fun testaComportamentosConta() {
 

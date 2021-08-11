@@ -1,7 +1,7 @@
-import br.com.crystaldata.bytebank.modelo.Cliente
-import br.com.crystaldata.bytebank.modelo.Diretor
-import br.com.crystaldata.bytebank.modelo.Gerente
-import br.com.crystaldata.bytebank.modelo.SistemaInterno
+import br.com.alura.kotlin.modelo.Cliente
+import br.com.alura.kotlin.modelo.Diretor
+import br.com.alura.kotlin.modelo.Gerente
+import br.com.alura.kotlin.modelo.SistemaInterno
 
 fun testaAutenticacao() {
     val gerente = Gerente(

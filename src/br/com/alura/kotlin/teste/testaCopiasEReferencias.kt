@@ -1,6 +1,6 @@
-import br.com.crystaldata.bytebank.modelo.Cliente
-import br.com.crystaldata.bytebank.modelo.ContaCorrente
-import br.com.crystaldata.bytebank.modelo.ContaPoupanca
+import br.com.alura.kotlin.modelo.Cliente
+import br.com.alura.kotlin.modelo.ContaCorrente
+import br.com.alura.kotlin.modelo.ContaPoupanca
 
 fun testaCopiasEReferencias() {
     val numeroX = 10

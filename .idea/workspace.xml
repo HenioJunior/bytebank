@@ -13,8 +13,8 @@
         <option value="Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Data Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -47,7 +47,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.UsaPrateleiraKt">
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
     <configuration name="ListaDeLivrosComNulosKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.crystaldata.bytebank.list.ListaDeLivrosComNulosKt" />
       <module name="bytebank" />
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.kotlin.collection.MainKt" />
       <module name="bytebank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.UsaPrateleiraKt" />
         <item itemvalue="Kotlin.LivrosComAtributoNuloKt" />
         <item itemvalue="Kotlin.ListaDeLivrosComNulosKt" />
         <item itemvalue="Kotlin.ListaDeLivrosKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
