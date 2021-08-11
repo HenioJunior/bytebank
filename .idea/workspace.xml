@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ea670bd-ae21-4b38-880b-648752584b90" name="Default Changelist" comment="Devolvendo elementos com distinct" />
+    <list default="true" id="5ea670bd-ae21-4b38-880b-648752584b90" name="Default Changelist" comment="Devolvendo elementos com distinct">
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/kotlin/collection/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/kotlin/collection/main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/br/com/crystaldata/bytebank/list" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -132,6 +134,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Copiando coleções" />
