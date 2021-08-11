@@ -1,36 +1,9 @@
 package br.com.alura.kotlin.collection
 
 fun main() {
+    val assistiramCursoAndroid = listOf("Alex", "Fran", "Gui", "Maria")
+    val assistiramCursoKotlin = listOf("Alex", "Paulo", "Maria")
+    val assistiramAmbos = assistiramCursoKotlin + assistiramCursoAndroid
+    println(assistiramAmbos.distinct())
 
-    val banco = BancoDeNomes()
-    val nomesSalvos: Collection<String> = banco.nomes
-    banco.salva("Alex")
-    println(banco.nomes)
-    println(nomesSalvos)
-    println(BancoDeNomes().nomes)
-}
-
-class BancoDeNomes {
-    val nomes: Collection<String> get() = dados.toList()
-
-    fun salva(nome: String){
-        dados.add(nome)
-    }
-    companion object {
-        private val dados = mutableListOf<String>()
-    }
-}
-
-fun testaColecao() {
-    val nomes: Collection<String> = mutableListOf(
-        "Alex",
-        "Fran",
-        "Gui",
-        "Maria",
-        "Ana"
-    )
-    for (nome in nomes) {
-        println(nome)
-    }
-    println(nomes)
 }
